@@ -1,18 +1,21 @@
 {
-    "name": "mvc/app",
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Mohamed Abdel-Samie",
-            "email": "mohamed.abdelsamie3009@gmail.com"
-        }
-    ],
-    "require": {
-        "dcblogdev/pdo-wrapper": "^2.0",
-        "rakit/validation": "^1.4"
+  "name": "mo-abdel-samie/micromvc-stracture",
+  "description": "micromvc-stracture",
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
     }
+  },
+  "authors": [
+    {
+      "name": "Mohamed Abdel-Samie",
+      "email": "mohamed.abdelsamie3009@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "another-vendor/package": "1.*",
+    "dcblogdev/pdo-wrapper": "^2.0",
+    "rakit/validation": "^1.4"
+  }
 }
